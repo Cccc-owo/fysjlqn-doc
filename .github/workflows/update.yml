@@ -31,7 +31,7 @@ jobs:
           run_install: true
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v3.6.0
         with:
           node-version: 18
           cache: pnpm
